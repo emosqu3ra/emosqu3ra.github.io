@@ -72,7 +72,6 @@ main section h3, p {
     border: none;
     border-radius: 55%;
     padding: 2vh 3vh;
-    margin-top: 3vh;
 }
 
 .btnthree {
@@ -82,7 +81,6 @@ main section h3, p {
     border: none;
     border-radius:50%;
     padding: 2vh 3vh;
-    margin-top: 3vh;
 }
 
 /* VIDEO */
@@ -92,7 +90,7 @@ main section h3, p {
     width: 100%;
 }
 
-/* EXP & EDU */
+
 .exp, .skills, .projects h1 {
     font-family: 'Questrial', sans-serif;
     font-size: 30px;
@@ -100,8 +98,9 @@ main section h3, p {
     text-align: center;
 }
 
-.exp {
-    float: left;
+/* SKILLS */
+.skills {
+    float: right;
     background-color: #d09a7d;
     height: 70vh;
     width: 50%;
@@ -109,9 +108,22 @@ main section h3, p {
     margin: 0;
 }
 
-/* SKILLS */
-.skills {
-    float: right;
+/* VIDEO OVERLAY */
+.content {
+    display: block;
+    position: absolute;
+    width: 50%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 10;
+    margin-bottom: -310px;
+    height: 70vh;
+  }
+
+/* EXP & EDU */
+.exp {
+    float: left;
     background-color: #d09a7d;
     height: 70vh;
     width: 50%;
