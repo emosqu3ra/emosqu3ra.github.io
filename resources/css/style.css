@@ -86,60 +86,33 @@ main section h3, p {
 }
 
 /* VIDEO */
-#myVideo {
+.myVideo {
     position:relative;
     height: 65vh;
     width: 100%;
 }
 
 /* EXP & EDU */
+.exp, .skills, .projects h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
 .exp {
     float: left;
-    background-color: #CA9072;
+    background-color: #d09a7d;
     height: 70vh;
     width: 50%;
     padding: 0;
     margin: 0;
 }
 
-/* Style the tab */
-.tab {
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-
 /* SKILLS */
 .skills {
     float: right;
-    background-color: #CA9072;
+    background-color: #d09a7d;
     height: 70vh;
     width: 50%;
     padding: 0;
@@ -152,5 +125,12 @@ main section h3, p {
     display: inline-block;
     height: 80vh;
     width: 100%;
+    background-color: #EDF6F9;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1vh;
     background-color: #EDF6F9;
 }
