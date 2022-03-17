@@ -29,6 +29,12 @@ nav a {
     list-style: none;
     float: left;
     margin-left: 6vh;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover, .btn:hover {
+    color: #d09a7d;
 }
 
 .btn {
