@@ -131,6 +131,47 @@ main section h3, p {
     margin: 0;
 }
 
+.eduexp {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+/* TABS */
+.tab {
+    overflow: hidden;
+    background-color: #d09a7d;
+}
+
+/* TAB BTNS */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-top: 40px;
+    transition: 0.3s;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 10%;
+  }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }  
+
+.tab button.active {
+    color: white;
+  } 
+  
+.tab button:hover {
+    color: #fbe1d7;
+  }
 
 /* PROJECTS */
 .projects {
