@@ -33,7 +33,7 @@ nav a {
     color: black;
 }
 
-nav a:hover, .btn:hover {
+nav a:hover, .btn:hover, .a:hover {
     color: #d09a7d;
 }
 
@@ -41,9 +41,9 @@ nav a:hover, .btn:hover {
     background-color: black;
     color: white;
     border: none;
-    border-radius: 7px;
     padding: 1vh 3vh;
     margin: 1.5vh;
+    font-size: medium;
 }
 
 /* MAIN */
@@ -182,11 +182,39 @@ main section h3, p {
 /* PROJECTS */
 .projects {
     display: inline-block;
-    height: 80vh;
     width: 100%;
     background-color: #EDF6F9;
 }
 
+.projects h3 {
+    text-align: center;
+}
+.a {
+    text-decoration: none;
+    color: #006D77;
+}
+
+.grid {
+    display: flex;
+    margin: auto;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 80% 20%;
+    text-align: center;
+    gap: 0;
+    padding-bottom: 2em;
+}
+
+.gridtwo {
+    display: flex;
+    margin: auto;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 80% 20%;
+    text-align: center;
+    gap: 0;
+    padding-bottom: 2em;
+}
+
+/* FOOTER */
 footer {
     display: flex;
     justify-content: center;
