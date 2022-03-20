@@ -151,6 +151,10 @@ main section h3, p {
     width: 90%;
 }
 
+.secretedu {
+    display: none;
+}
+
 /* TABS */
 .tab {
     overflow: hidden;
@@ -282,6 +286,14 @@ main > section + section {
     padding-top: 1vh;
 }
 
+.exp, .skills h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color:#EDF6F9;
+}
+
 /* SKILLS */
 .skills {
     background-color: #d09a7d;
@@ -293,26 +305,21 @@ main > section + section {
 
 /* VIDEO AND OVERLAY */
 .content {
-    display: block;
-    position: absolute;
-    width: 100%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    top: 0;
-    height: 50vh;
-    margin-top: 92vh;
+    display: none;
   }
 
 .myVideo {
-    width: 100%;
-    height: 45vh;
+    display: none;
 }  
 
 /* EXP & EDU */
 .exp {
-    height: 40vh;
+    height: 90vh;
     width: 100%;
+}
+
+.secretedu {
+    display: block;
 }
 
 /* TABS FOR EDU AND EXP */
